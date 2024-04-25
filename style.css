@@ -1,0 +1,71 @@
+
+
+h1 {
+	color: rgb(6, 52, 192);
+	
+	margin: auto;
+}
+h2 { 
+color:royalblue ;
+}
+
+.img-sp {
+width: 500px
+}
+
+.img-project{
+	width: 250px;
+	height: 250px;
+}
+
+
+
+.container1 {
+   display: flex;
+}
+
+.contfish {
+max-width: 1000px;
+padding: 25px;
+
+}
+
+
+/* карточки */
+.card {
+    /* Добавьте тени, чтобы создать эффект «карточки» */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	margin: auto;
+	height: 400px;
+	width: 350px;
+	padding-top: 19px;
+}
+
+/* При наведении курсора мыши добавьте более глубокую тень */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	
+}
+
+/* Добавьте немного отступов внутри контейнера карты. */
+.container {
+    padding: 2px 16px;
+	margin-top: 15px;
+}
+
+/*карточки*/
+
+.korobka {
+
+	margin: auto;
+	display:flex ;
+	flex-wrap: wrap;
+}
+
+.korobstr {
+max-width: 1000px;
+/* margin: 55px; */
+}
+
+
